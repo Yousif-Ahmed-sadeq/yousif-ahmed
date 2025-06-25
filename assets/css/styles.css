@@ -1229,3 +1229,15 @@ header {
   word-wrap: break-word;
   margin-top: 1rem;
 }
+
+/* Add this in your CSS file */
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme header,
+.dark-theme nav,
+.dark-theme section {
+  background-color: #1e1e1e;
+}
